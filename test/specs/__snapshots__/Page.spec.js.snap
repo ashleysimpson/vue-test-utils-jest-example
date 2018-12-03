@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List.vue matches snapshop shallow mount 1`] = `
+<div>
+    <message-toggle-stub></message-toggle-stub>
+    <list-stub items="list item 1,listen item 2"></list-stub>
+</div>
+`;
+
+exports[`List.vue matches snapshot mount 1`] = `
+<div>
+    <div>
+        <h1>default message</h1> <button id="toggle-message">
+            Change message
+        </button>
+    </div>
+    <ul>
+        <li>
+            list item 1
+        </li>
+        <li>
+            listen item 2
+        </li>
+    </ul>
+</div>
+`;
